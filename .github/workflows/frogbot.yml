@@ -26,7 +26,7 @@ jobs:
         branch: ["main"]
     steps:
       - uses: jfrog/frogbot@v2
-        working-directory: 'python-example/pip-example'
+        working-directory: 'python-example/pip-example/pythonExample'
         # [Mandatory if using OIDC authentication protocol instead of JF_ACCESS_TOKEN]
         # Insert to oidc-provider-name the 'Provider Name' defined in the OIDC integration configured in the JPD
         # with:
